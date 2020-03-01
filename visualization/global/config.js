@@ -9,7 +9,7 @@
   encoding: "UTF-8",
 
   // 每个时间节点最多显示的条目数。
-  max_number: 35,
+  max_number: 20,
 
   // 控制是否显示顶部附加信息文字。
   showMessage: true,
@@ -54,10 +54,10 @@
 
   // 附加信息内容。
   // left label
-  itemLabel: "治愈（%） ",
+  itemLabel: "中国以外 ",
 
   // right label
-  typeLabel: "各省份治愈率变化情况",
+  typeLabel: "累计确诊人数变化情况",
 
 
   // 榜首项目信息的水平位置 。
@@ -71,7 +71,7 @@
   text_y: -50,
 
   // 右侧文字横坐标
-  text_x: 600,
+  text_x: 1000,
   // 偏移量
   offset: 350,
 
@@ -165,7 +165,7 @@
   rounded_rectangle: true,
 
   // 是否显示x轴轴线
-  show_x_tick: false,
+  show_x_tick: true,
 
   // 限制bar info 展示的长度
   // limit bar info display length
